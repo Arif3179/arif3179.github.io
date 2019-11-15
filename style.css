@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    height: 40px;
+    width: 1239px;
+    text-align: center;
+  }
+
+.center li{
+    text-align:center;
+    font-family:"Raleway", sans-serif;
+    display: inline-block;
+    font-size: 17px;
+
+}
+footer {
+    background-color:white;
+    height:50px;
+    width:1239px;
+    z-index:10;
+    text-align: center;
+    font-family:"Raleway", sans-serif;
+}
+
+.header-home,.content-home {
+    font-family:"Raleway", sans-serif;
+}
+
+.content-home{
+background-image:url("./asset/resized_background.jpg");
+background-repeat: no-repeat;
+height: 929px;
+width: 1239px;
+text-align: center;
+border: 1px;
+}
+
+.paragraph {
+    padding-top: 100px;
+}
+
+a {
+ color:black;   
+}
+
+p {
+    font-size: 20px;
+}
+button {
+    font-size: 17px;
+    font-family:"Raleway", sans-serif;
+}
+.about-immage{
+    text-align: center;
+}
