@@ -1,81 +1,182 @@
 body {
     margin: 0;
+    font-family:"Raleway", sans-serif;
+    border: 0px;
+    padding: 0px;
 }
-
-header {
-    background-color: white;
-    height: 40px;
-    width: 1239px;
+.header-index {
+    background-color: black;
+    padding-top: 30px;
+    height: 70px;
+    width: 1280px;
     text-align: center;
   }
-
-.center li{
-    text-align:center;
+.header-index li,a {
+    color: white;
     font-family:"Raleway", sans-serif;
     display: inline-block;
     font-size: 17px;
-
 }
-footer {
-    background-color:white;
-    height:50px;
-    width:1239px;
-    z-index:10;
+
+.content-index{
+    background-image:url("./asset/foto_background_index.resized.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1280px;
     text-align: center;
-    font-family:"Raleway", sans-serif;
-}
-
-.header-home,.content-home {
-    font-family:"Raleway", sans-serif;
-}
-
-.content-home{
-background-image:url("./asset/resized_background.jpg");
-background-repeat: no-repeat;
-height: 929px;
-width: 1239px;
-text-align: center;
-border: 1px;
-}
-
-.paragraph {
     padding-top: 100px;
-}
+    }
 
-a {
- color:black;   
-}
-
-p {
+.content-index p{
     font-size: 20px;
 }
-button {
-    font-size: 17px;
+
+.footer-index {
+    background-color:black;
+    padding-top: 17px;
+    height:80px;
+    width: 1280px;
+    text-align: center;
     font-family:"Raleway", sans-serif;
 }
-.about-immage{
-    text-align: center;
+
+.footer-index p,h3{
+    font-size: 17px;
+    color: white;
 }
 
-.grid{
+.button-index {
+  border:0 solid black;
+  color:black;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display:inline;
+  font-size: 17px;
+  margin: 0px 0px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family:"Raleway", sans-serif;
+}
+
+.button-index button{
+    font-weight: bold;
+}
+.button-index:hover {
+    background-color:black;
+    color: white;
+  }
+.header-about {
+    background-color: black;
+    padding-top: 30px;
+    height: 70px;
+    width: 1280px;
+    text-align: center;
+}
+.header-about li,a {
+    color: white;
+    font-family:"Raleway", sans-serif;
+    display: inline-block;
+    font-size: 17px;
+}
+.content-about {
+    height: 800px;
+    width: 1280px;
+    text-align: center;
+    }
+
+.content-about p{
+    font-size: 20px;
+    font-family:"Raleway", sans-serif;
+}
+
+.grid-about{
     display: grid;
     height: 550px;
-    width:1239px;
+    widows: 1280px;
     grid-template-columns: 50% 50%;
     margin-top: 50px;
 }
-.box {
-align-content: center;
+
+.gambar {
+text-align: center;
+}
+.tulisan{
+text-align:left;
+padding-right: 25px;
+}
+.quote-about{
+text-align: center;
+margin:0px 100px 100px 100px ;
+}
+
+.footer-about {
+    background-color:black;
+    padding-top: 17px;
+    height:80px;
+    width: 1280px;
+    text-align: center;
+    font-family:"Raleway", sans-serif;
+}
+
+.footer-about p,h3{
+    font-size:17px;
+    color: white;
+}
+
+.header-contact {
+    background-color: black;
+    padding-top: 30px;
+    height: 70px;
+    width: 1280px;
+    text-align: center;
+}
+.header-contact li,a {
+    color: white;
+    font-family:"Raleway", sans-serif;
+    display: inline-block;
+    font-size: 17px;
+}
+
+
+.sosmed-contact li{
+display:inline-block;
 text-align: center;    
 }
-.quote{
+
+.sosmed-contact p{
 text-align: center;
-margin-bottom: 200px;
+font-size: 17px;
+color: black;
+font-family:"Raleway", sans-serif;
 }
-.content-about {
-background-color:hsl(180, 63%, 66%);
-height: 929px;
-width: 1239px;
-text-align: center;
-border: 1px;
+.footer-contact {
+    background-color:black;
+    padding-top: 17px;
+    height:80px;
+    width: 1280px;
+    text-align: center;
+    font-family:"Raleway", sans-serif;
+}
+.footer-contact p,h3{
+    font-size:17px;
+    color: white;
+}
+.content-contact{
+    background-image:url("./asset/086.resized.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1280px;
+    text-align: center;
+    padding-top: 50px;
+    }
+
+.content-contact p,label{
+    font-size: 17px;
+    font-family:"Raleway", sans-serif;
+
+    
 }
