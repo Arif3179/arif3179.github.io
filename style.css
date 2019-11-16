@@ -146,7 +146,7 @@ display:inline-block;
 text-align: center;    
 }
 
-.sosmed-contact p{
+.sosmed-contact p,label,input{
 text-align: center;
 font-size: 17px;
 color: black;
